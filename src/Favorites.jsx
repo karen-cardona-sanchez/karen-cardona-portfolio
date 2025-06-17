@@ -1,7 +1,7 @@
 export function Favorites() {
     return (
-        <body className="favorites-body">
-            <div id="root"></div>
+        <div className="favorites-body">
+            {/* <div id="root"></div> */}
             <header className="favorites-header">
                 <h1>Karen's Hall of Fame </h1>
                 <h2>A few of my favorite things...</h2>
@@ -75,6 +75,6 @@ export function Favorites() {
                                         <p>Copyright 2025</p>
                                         <p>Created for BU MET Course CS 601</p>
                                     </footer>
-                                </body>
+                                </div>
                                 )
 }

@@ -3,7 +3,7 @@ import {Home} from './Home';
 import { Hobbies } from './Hobbies';
 import { Favorites } from './Favorites';
 import { Resume } from './Resume';
-import { Pets } from './Pets';
+import { Pets } from './pets';
 
 
 import './App.css'
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <NavBar>
+      <NavBar></NavBar>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/hobbies" element={<Hobbies />}></Route>
@@ -23,7 +23,6 @@ function App() {
           <Route path="/resume" element = {<Resume />}></Route>
           <Route path="/pets" element = {<Pets />}></Route>
           </Routes>
-      </NavBar>
     </>
   )
 }

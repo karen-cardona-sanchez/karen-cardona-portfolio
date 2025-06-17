@@ -1,13 +1,11 @@
 export function Resume() {
     return (
-        <body class="resume-body">
-            <div id="root"></div>
+        <div class="resume-body">
             <header class="resume-header">
                 <h1>Karen Cardona-Sanchez</h1>
                 <h4>Northern, NJ | kcs683@bu.edu</h4>
             </header>
             <main class="resume-main">
-
                 <div id="bio">
                     <h3>Hi, I'm Karen!</h3>
                     <img src="./public/assets/Karen.png"></img>
@@ -123,7 +121,7 @@ export function Resume() {
                 <p>Copyright 2025</p>
                 <p>Created for BU MET Course CS 601</p>
             </footer>
-        </body>
+        </div>
 
 
     )

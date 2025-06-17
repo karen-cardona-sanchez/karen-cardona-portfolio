@@ -1,7 +1,7 @@
 
 
-export const dropZones = ["winnieDropZone", "nicoDropZone", "moccaDropZone"];
-export const draggables = ["winnie", "nico", "mocca"];
+dropZones = ["winnieDropZone", "nicoDropZone", "moccaDropZone"];
+draggables = ["winnie", "nico", "mocca"];
 
 //Drag Start 
 
@@ -39,4 +39,4 @@ dropZones.forEach( id =>{
 })
 
 
-// export * from "./DragDrop.js";
+

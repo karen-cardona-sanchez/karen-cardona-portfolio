@@ -1,7 +1,7 @@
 export function Home(){
     return (
-        <body>
-            <div id="root"></div>
+        <div className="home-body">
+            {/* <div id="root"></div> */}
             <section id="hero">
                 <div className="left">
                     <h3 className="rotate-left">Reader</h3>
@@ -47,6 +47,6 @@ export function Home(){
                 <p>Copyright 2025</p>
                 <p>Created for BU MET Course CS 601</p>
             </footer>
-        </body>
+        </div>
     );
 }
