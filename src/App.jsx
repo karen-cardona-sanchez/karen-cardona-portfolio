@@ -3,7 +3,7 @@ import {Home} from './Home';
 import { Hobbies } from './Hobbies';
 import { Favorites } from './Favorites';
 import { Resume } from './Resume';
-import { Pets } from './pets';
+import { Pets } from './Pets'
 
 
 import './App.css'
