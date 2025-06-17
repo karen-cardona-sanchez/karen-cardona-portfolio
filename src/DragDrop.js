@@ -1,5 +1,7 @@
-const dropZones = ["winnieDropZone", "nicoDropZone", "moccaDropZone"];
-const draggables = ["winnie", "nico", "mocca"];
+
+
+export const dropZones = ["winnieDropZone", "nicoDropZone", "moccaDropZone"];
+export const draggables = ["winnie", "nico", "mocca"];
 
 //Drag Start 
 
@@ -9,6 +11,7 @@ draggables.forEach(id=>{
         event.dataTransfer.setData('text/plain', event.target.id);
     })
 })
+
 
 
 dropZones.forEach( id =>{
@@ -23,9 +26,6 @@ dropZones.forEach( id =>{
         const draggableID = event.dataTransfer.getData('text/plain');
         const draggable = document.getElementById(draggableID);
 
-       
-
-
         if ((id=="winnieDropZone" && draggableID=="winnie") ||
             (id == "nicoDropZone" && draggableID=="nico") ||
             (id == "moccaDropZone" && draggableID == "mocca")){
@@ -37,3 +37,6 @@ dropZones.forEach( id =>{
         
     })
 })
+
+
+// export * from "./DragDrop.js";
