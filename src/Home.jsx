@@ -10,7 +10,7 @@ export function Home(){
                 </div>
                 <div className="middle">
                     <h1 id="hero-title">All About Karen!</h1>
-                    <img src="./public/assets/Karen.png" id="karen-profile"></img>
+                    <img src="../public/assets/Karen.png" id="karen-profile"></img>
                         <h3>Welcome to my page! Click around to learn more about me, my background, hobbies, and more!</h3>
                 </div>
                 <div className="right">

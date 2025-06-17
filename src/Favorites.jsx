@@ -8,7 +8,7 @@ export function Favorites() {
             </header>
             <main className="favorites-main">
                 <div className="favorites-grid">
-                    <img src="./public/assets/artist.png" id="artist"></img>
+                    <img src="../public/assets/artist.png" id="artist"></img>
                         <div className="favorites-description" id="artist-description">
                             <h3>Hozier</h3>
                             <ul>
@@ -17,7 +17,7 @@ export function Favorites() {
                                 <li>Amazing live performances</li>
                             </ul>
                         </div>
-                        <img src="./public/Assets/book.png" id="book"></img>
+                        <img src="../public/Assets/book.png" id="book"></img>
                             <div className="favorites-description" id="book-description">
                                 <h3>Their Eyes Were Watching God - Zora Neale Hurston</h3>
                                 <ul>
@@ -27,7 +27,7 @@ export function Favorites() {
                                 </ul>
                             </div>
 
-                            <img src="./public/assets/cartoon.png" id="cartoon"></img>
+                            <img src="../public/assets/cartoon.png" id="cartoon"></img>
                                 <div className="favorites-description" id="cartoon-description">
                                     <h3>Bob's Burgers</h3>
                                     <ul>
@@ -37,7 +37,7 @@ export function Favorites() {
                                     </ul>
                                 </div>
 
-                                <img src="./public/Assets/movie.png" id="movie"></img>
+                                <img src="../public/Assets/movie.png" id="movie"></img>
                                     <div className="favorites-description" id="movie-description">
                                         <h3>Mickey-17</h3>
                                         <ul>
@@ -47,7 +47,7 @@ export function Favorites() {
                                         </ul>
                                     </div>
 
-                                    <img src="./public/Assets/show.png" id="show"></img>
+                                    <img src="../public/Assets/show.png" id="show"></img>
                                         <div className="favorites-description" id="show-description">
                                             <h3>Derry Girls</h3>
                                             <ul>
@@ -57,7 +57,7 @@ export function Favorites() {
                                             </ul>
                                         </div>
 
-                                        <img src="./public/Assets/musical.png" id="musical"></img>
+                                        <img src="../public/Assets/musical.png" id="musical"></img>
                                             <div className="favorites-description" id="musical-description">
                                                 <h3>Beetlejuice</h3>
                                                 <ul>

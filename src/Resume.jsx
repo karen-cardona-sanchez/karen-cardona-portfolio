@@ -8,7 +8,7 @@ export function Resume() {
             <main class="resume-main">
                 <div id="bio">
                     <h3>Hi, I'm Karen!</h3>
-                    <img src="./public/assets/Karen.png"></img>
+                    <img src="../public/assets/Karen.png"></img>
 
                     <p>I am currently studying for my Master of Science in Computer Information Systems. I have a background in
                         administrative work and am looking to go into full-stack development in the healthcare field. I have programming
@@ -61,28 +61,28 @@ export function Resume() {
                         <h3>Skills</h3>
                         <div id="skills-flex">
                             <div class="skill-group">
-                                <img class="skill-sticker" src="./public/assets/HTML.png"></img>
+                                <img class="skill-sticker" src="../public/assets/HTML.png"></img>
                                 <label>HTML</label>
                             </div>
                             <div class="skill-group">
-                                <img class="skill-sticker" src="./public/assets/CSS.png"></img>
+                                <img class="skill-sticker" src="../public/assets/CSS.png"></img>
                                 <label>CSS</label>
                             </div>
                             <div class="skill-group">
-                                <img class="skill-sticker" src="./public/assets/React.png"></img>
+                                <img class="skill-sticker" src="../public/assets/React.png"></img>
                                 <label>React</label>
                             </div>
                             <div class="skill-group">
-                                <img class="skill-sticker" src="./public/assets/PostgreSQL.png"></img>
+                                <img class="skill-sticker" src="../public/assets/PostgreSQL.png"></img>
                                 <label>PostgreSQL</label>
                             </div>
                             <div class="skill-group">
-                                <img class="skill-sticker" src="./public/assets/Python.png"></img>
+                                <img class="skill-sticker" src="../public/assets/Python.png"></img>
                                 <label>Python</label>
 
                             </div>
                             <div class="skill-group">
-                                <img class="skill-sticker" src="./public/Assets/Java.png"></img>
+                                <img class="skill-sticker" src="../public/Assets/Java.png"></img>
                                 <label>Java</label>
                             </div>
                         </div>
